@@ -1,0 +1,5 @@
+import type { QueryBuilderProps, RuleGroupType, RuleGroupTypeIC, RuleType } from '@react-querybuilder/ts';
+export declare const QueryBuilder: {
+    <RG extends RuleGroupType<RuleType<string, string, any, string>, string> | RuleGroupTypeIC<RuleType<string, string, any, string>, string>>({ defaultQuery, query: queryProp, fields: fieldsPropOriginal, operators, combinators, translations: translationsProp, enableMountQueryChange: enableMountQueryChangeProp, controlClassnames: controlClassnamesProp, controlElements: controlElementsProp, getDefaultField, getDefaultOperator, getDefaultValue, getOperators, getValueEditorType, getValueSources, getInputType, getValues, getRuleClassname, getRuleGroupClassname, onAddRule, onAddGroup, onRemove, onQueryChange, showCombinatorsBetweenRules, showNotToggle, showCloneButtons, showLockButtons, resetOnFieldChange, resetOnOperatorChange, autoSelectField, autoSelectOperator, addRuleToNewGroups, enableDragAndDrop: enableDragAndDropProp, independentCombinators, listsAsArrays, disabled, validator, context, debugMode: debugModeProp, onLog, idGenerator, }: QueryBuilderProps<RG>): JSX.Element;
+    displayName: string;
+};
